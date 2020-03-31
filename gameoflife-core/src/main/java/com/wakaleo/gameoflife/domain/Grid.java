@@ -24,7 +24,6 @@ public class Grid {
 	// Default constructor, called on "NEW GAME" button click
     public Grid() {
         this.cells = anArrayOfDeadCells(DEFAULT_ROW_COUNT, DEFAULT_COLUMN_COUNT);
-	int anInteger = 3 / 0;
     }
 	// Create blank grid of given size, called on "Go" button click 
     public Grid(final int rows, final int columns) {
