@@ -37,7 +37,7 @@ public enum Cell {
     }
 	
 	public String uselessMethod(String arg) {
-		symbol.hash();
+		symbol.hashCode();
 		return null;
 	}
 
