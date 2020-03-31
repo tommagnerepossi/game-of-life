@@ -35,6 +35,11 @@ public enum Cell {
         }
         return cellRepresentedBySymbol;
     }
+	
+	public String uselessMethod(String arg) {
+		symbol.hash();
+		return null;
+	}
 
 	// Default getter
     public String getSymbol() {
